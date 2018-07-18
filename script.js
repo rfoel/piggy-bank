@@ -59,7 +59,7 @@ new Vue({
       </svg>
       `;
       main.appendChild(div);
-      // setTimeout(() => main.removeChild(div), 800);
+      setTimeout(() => main.removeChild(div), 800);
     },
   },
 });
